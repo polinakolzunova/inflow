@@ -1,0 +1,119 @@
+@media screen and (min-width: 1200px) {
+    main > section h2 {
+        font-size: 20px;
+    }
+
+    main .inner {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #page-footer {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #page-header.index-header .contacts .contact-line.contact-phone {
+        font-size: 1.7em;
+    }
+
+    main .main_spliter h3 {
+        font-size: 25px;
+    }
+
+    main .main_spliter h3 span {
+        font-size: 35px;
+    }
+
+    #page-header #menu-list ul {
+        margin-left: 50px;
+    }
+
+    #page-header #menu-list ul li a {
+        font-size: 70px;
+    }
+
+    #scroll-to-top {
+        width: 80px;
+        height: 110px;
+        right: 10px;
+    }
+
+    #page-header #scroll-to-top.active {
+        bottom: -60px;
+    }
+
+    #scroll-to-top:hover {
+        bottom: -50px !important;
+    }
+
+    main > section h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    #page-header {
+        height: 60px;
+    }
+
+    #page-header .contacts .contact-line a,
+    #page-header .contacts .contact-line.contact-phone,
+    #page-header .contacts .contact-line.contact-email {
+        display: none;
+    }
+
+    .logo-small .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #page-header #menu-list ul li a {
+        font-size: 50px;
+    }
+
+    main .main_spliter h3 {
+        line-height: 35px;
+    }
+
+    #page-footer .footer-right {
+        width: 100vw;
+        font-size: 14px;
+    }
+
+    #page-footer .footer-right .services {
+        height: 130px;
+    }
+
+    #page-footer .footer-right .contacts {
+        height: 90px;
+    }
+
+    #page-footer .footer-right .contacts a {
+        flex-basis: auto;
+        flex-grow: 1;
+        min-width: 25%;
+        line-height: 40px;
+    }
+
+    #page-footer .footer-right .copyright a,
+    #page-footer .footer-right .copyright {
+        font-size: 14px;
+    }
+
+    #scroll-to-top {
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        overflow-x: scroll;
+    }
+}
+

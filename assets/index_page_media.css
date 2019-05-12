@@ -1,0 +1,210 @@
+@media screen and (min-width: 1200px) {
+    #main_promo .move-to {
+        bottom: 120px;
+    }
+
+    #main_services .inner-list .inner-list-item {
+        flex-basis: 350px;
+    }
+
+    #main_portfolio .inner-list .inner-list-item {
+        height: calc((100vw / 2) * 0.66);
+    }
+
+    #main_about-us .inner {
+        margin-top: -40px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #main_about-us .inner-image {
+        flex-basis: auto;
+        width: 400px;
+    }
+
+    #main_about-us .inner {
+        margin-top: -20px;
+    }
+
+    #main_about-us .inner-image .img-box {
+        top: -150px;
+    }
+
+    main .inner {
+        margin-top: 35px;
+    }
+
+    main .inner-header {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #page-footer .footer-left {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    #main_promo .inner {
+        font-size: 1.7em;
+    }
+
+    #main_promo .move-to {
+        transform: translateX(-50%) scale(0.9);
+    }
+
+    #main_promo .move-to .text {
+        font-size: 18px;
+        letter-spacing: 5px;
+    }
+
+    #main_about-us {
+        background-image: linear-gradient(110deg,
+        transparent 0, transparent 20%,
+        rgba(156, 145, 26, 0.5) 20%, rgba(144, 135, 22, 0.8) 100%),
+        linear-gradient(150deg, #fff 0, #fff 20%, rgba(5, 146, 137, 0.5) 20%, rgba(20, 112, 111, 0.8) 100%);
+    }
+
+    #main_about-us .inner-image {
+        position: absolute;
+        top: 250px; left: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0.7;
+    }
+
+    #main_about-us .inner-text {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #main_portfolio .inner-list .inner-list-item.animated .item-content .item-btn {
+        bottom: 20px;
+    }
+
+    #main_portfolio .inner-list .inner-list-item .item-content::before {
+        top: 120px;
+    }
+
+    #main_portfolio .inner-list .inner-list-item .item-content::after {
+        bottom: 80px;
+    }
+
+    #main_advantages .inner-list .inner-list-item {
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    main .inner {
+        margin-bottom: 50px;
+    }
+
+    #main_advantages .inner-list .inner-list-item {
+        flex-basis: 90%;
+        height: 220px;
+    }
+
+    #main_portfolio .inner-list .inner-list-item {
+        flex-basis: 90%;
+        height: 330px;
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+
+    #main_promo .move-to {
+        transform: translateX(-50%) scale(0.7);
+    }
+
+    #main_promo .inner .logo-big {
+        width: 25vh;
+        height: 25vh;
+    }
+    #main_greeting header {
+        padding-bottom: 10px;
+    }
+    #main_greeting .inner {
+        width: auto;
+        padding: 0 15px;
+    }
+    #main_about-us .inner-image {
+        top: 220px;
+        height: 170px;
+        width: 170px;
+        margin-bottom: 30px;
+    }
+    #main_about-us .inner-text > div {
+        padding: 7px 5px;
+    }
+    main .inner {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    main .inner-btn-line {
+        padding-top: 40px !important;
+    }
+    main .inner-header {
+        font-size: 1.7em;
+    }
+    main .inner-header.header-colon {
+        margin-bottom: 50px;
+    }
+    main .inner-header.header-colon::before {
+        bottom: -45px;
+    }
+    main .inner-header.header-colon::after {
+        bottom: -40px;
+    }
+    #main_advantages .inner-list .inner-list-item {
+        height: 200px;
+    }
+    #main_advantages .inner-list .inner-list-item .item-name {
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main .inner-header {
+        font-size: 1.4em;
+        letter-spacing: 3px;
+        margin-bottom: 25px;
+    }
+    #main_promo .inner {
+        font-size: 2em;
+    }
+    #main_greeting ul li a .small-btn {
+        margin-right: 500px;
+    }
+    #main_about-us .inner-image {
+         display: none;
+     }
+    #main_about-us .inner-text > div {
+        font-size: 1em;
+        line-height: 1.3em;
+        padding: 3px 5px;
+    }
+    #main_about-us .inner-text .title {
+        font-size: 2em;
+    }
+    main .inner {
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    #main_advantages .inner-list .inner-list-item .item-description {
+        width: 100%;
+        padding: 0 10px;
+    }
+    main .inner-header.header-colon::before,
+    main .inner-header.header-colon::after {
+        display: none;
+    }
+    #main_documents .inner-list .inner-list-item {
+        width: 300px;
+        height: 220px;
+    }
+}
