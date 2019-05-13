@@ -807,23 +807,23 @@ main .main_spliter h3 span {
 
 #main_portfolio .inner-list .inner-list-item.animated .item-content .item-type {
     top: 80px;
-    transition: all 0.4s ease 1s;
+    transition: all 0.3s ease 0.5s;
 }
 
 #main_portfolio .inner-list .inner-list-item.animated .item-content .item-text {
     transform: scale(1);
-    transition: all 0.5s ease 1.3s;
+    transition: all 0.4s ease 0.9s;
 }
 
 #main_portfolio .inner-list .inner-list-item.animated .item-content .item-btn {
     bottom: 50px;
-    transition: all 0.4s ease 1.6s;
+    transition: all 0.3s ease 0.9s;
 }
 
 #main_portfolio .inner-list .inner-list-item.animated .item-content::before,
 #main_portfolio .inner-list .inner-list-item.animated .item-content::after {
     width: 100%;
-    transition: all 0.6s ease 1.9s;
+    transition: all 0.6s ease 1.2s;
 }
 
 /*=================== documents ===================*/

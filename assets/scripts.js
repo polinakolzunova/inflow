@@ -5,7 +5,7 @@ $(() => {
     let menuChangePoint = 90;
     let additScroll = 150;
     let blockMouseMargin = 40;
-    let blockMouseDuration = 300;
+    let blockMouseDuration = 400;
     let listItems = document.querySelectorAll("main .main_spliter h3");
     let colors = ['FEF543', 'D7FE43', '57FE43',
         '43FE88', '43F0FE', '43BCFE', '4543FE',
@@ -171,23 +171,24 @@ $(() => {
             h: $(this).innerHeight()
         };
 
-        $(this).removeClass("animated");
-
         if (mouse.y - blockMouseMargin < block.y) {
             //console.log("to top");
-            block.el.animate({top: "-100%"},100,'linear');
+            block.el.animate({top: "-100%"},100,'linear',()=>{$(this).removeClass("animated");});
         }
         else if (mouse.y + blockMouseMargin > block.y + block.h) {
             //console.log("to bottom");
-            block.el.animate({top: "100%"},100,'linear');
+            block.el.animate({top: "100%"},100,'linear',()=>{$(this).removeClass("animated");});
         }
         else if (mouse.x - blockMouseMargin < block.x) {
             //console.log("to left");
-            block.el.animate({left: "-100%"},100,'linear');
+            block.el.animate({left: "-100%"},100,'linear',()=>{$(this).removeClass("animated");});
         }
         else if (mouse.x + blockMouseMargin > block.x + block.w) {
             //console.log("to right");
-            block.el.animate({left: "100%"},100,'linear');
+            block.el.animate({left: "100%"},100,'linear',()=>{$(this).removeClass("animated");});
+        }
+        else {
+            block.el.animate({top: "-100%"},100,'linear',()=>{$(this).removeClass("animated");});
         }
     }
 
