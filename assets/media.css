@@ -114,6 +114,7 @@
 @media screen and (max-width: 500px) {
     body {
         font-size: 14px;
+        overflow-x: scroll;
     }
 
     #page-header {
@@ -172,6 +173,12 @@
         top: 45px;
         right: 5px;
         margin-right: 0;
+    }
+
+    .big-btn {
+        max-width: 200px;
+        font-size: 1.2em;
+        border-width: 3px;
     }
 
 }
