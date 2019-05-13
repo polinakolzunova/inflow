@@ -94,6 +94,8 @@ body {
     letter-spacing: 1px;
     background-color: transparent;
     transition: all 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .big-btn::before,
