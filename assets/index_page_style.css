@@ -26,13 +26,6 @@ main .al-c {
     text-align: center !important;
 }
 
-main .big-btn:hover {
-    box-shadow: 25px 15px 10px -10px rgba(255, 209, 3, 0.5),
-    30px 20px 10px -10px rgba(34, 34, 35, 0.5),
-    -25px -15px 10px -10px rgba(217, 54, 129, 0.5);
-    opacity: 1;
-}
-
 main a {
     font-size: inherit;
     color: inherit;
@@ -1038,19 +1031,4 @@ main .main_spliter h3 span {
     letter-spacing: 1px;
     line-height: 1.5em;
     font-size: 2.2em;
-}
-
-#main_contacts a {
-    padding: 15px 25px;
-    font-size: 1.3em;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: rgba(0,0,0, 0.2);
-}
-#main_contacts a:hover {
-    color: #151515;
-}
-#main_contacts a::before {
-    background-color: #fff;
 }
