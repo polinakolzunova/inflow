@@ -113,7 +113,7 @@
 
 @media screen and (max-width: 500px) {
     body {
-        font-size: 14px;
+        font-size: 16px;
         overflow-x: scroll;
     }
 
@@ -123,8 +123,7 @@
     }
 
     #page-header .contact-line button.small-btn {
-        padding: 12px 7px;
-        font-size: 14px;
+        padding: 7px;
         text-transform: uppercase;
     }
 

@@ -231,7 +231,7 @@
     }
 
     main .inner-header {
-        font-size: 1.3em;
+        font-size: 1.4em;
         letter-spacing: 3px;
         margin-bottom: 15px;
     }
@@ -266,7 +266,31 @@
         padding-top: 20px !important;
     }
 
+    #main_services .inner-list .inner-list-item {
+        min-height: 0;
+    }
+
+    #main_services ul li a {
+        font-size: 18px;
+    }
+
+    #main_portfolio .inner-list .inner-list-item {
+        height: 270px;
+    }
+
+    #main_portfolio .inner-list .inner-list-item.animated .item-text {
+        top: 130px;
+        left: 5vw;
+        width: 90vw;
+        font-size: 14px;
+    }
+
+    #main_portfolio .inner-list .inner-list-item .item-content::after {
+        bottom: 65px;
+    }
+
     #main_advantages .inner-list .inner-list-item .item-description {
+        font-size: 1em;
         width: 100%;
         padding: 0 10px;
     }
@@ -279,5 +303,16 @@
     #main_documents .inner-list .inner-list-item {
         width: 300px;
         height: 220px;
+        margin: 0 5px 10px 5px;
+    }
+
+    #main_contacts .inner .inner-header {
+        line-height: 1.3em;
+        font-size: 1.7em;
+    }
+
+    #main_contacts a {
+        padding: 10px 15px;
+        font-size: 1.2em;
     }
 }
