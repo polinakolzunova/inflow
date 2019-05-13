@@ -996,7 +996,7 @@ main .main_spliter h3 span {
         background-position: 50% 50%;
     }
     100% {
-        background-position: 0 0;
+        background-position: 0 50%;
     }
 }
 
