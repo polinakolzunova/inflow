@@ -115,33 +115,42 @@
     body {
         font-size: 14px;
     }
+
     #page-header {
         width: 100vw;
         box-sizing: border-box;
     }
+
     #page-header .contact-line button.small-btn {
         padding: 12px 7px;
         font-size: 14px;
         text-transform: uppercase;
     }
+
     #page-header .contacts {
-         padding: 5px 0;
-     }
-    #page-header #menu-button {
-        width: 50px; height: 50px;
+        padding: 5px 0;
     }
+
+    #page-header #menu-button {
+        width: 50px;
+        height: 50px;
+    }
+
     #page-header #menu-button .decor {
         left: 7px;
         top: 22px;
     }
+
     #page-header #menu-button.active {
         left: 5px;
     }
 
     #page-header #menu-list .logo-big {
-        width: 75px; height: 75px;
+        width: 75px;
+        height: 75px;
         right: 15px;
     }
+
     #page-header #menu-list .logo-small {
         right: 15px;
     }
@@ -150,9 +159,19 @@
         margin-left: 20px;
         top: 45%;
     }
+
     #page-header #menu-list ul li a {
         font-size: 35px;
         padding: 0 0 0 20px;
+    }
+
+    main .main_spliter h3 {
+        line-height: 30px;
+    }
+    main > section h2 {
+        top: 45px;
+        right: 5px;
+        margin-right: 0;
     }
 
 }
