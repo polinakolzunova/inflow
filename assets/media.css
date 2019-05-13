@@ -180,5 +180,32 @@
         border-width: 3px;
     }
 
+    #page-footer .footer-right {
+        padding-right: 5px;
+        padding-left: 5px;
+        box-sizing: border-box;
+    }
+
+    #page-footer .footer-right > * {
+        box-sizing: border-box;
+    }
+
+    #page-footer .footer-right .contacts,
+    #page-footer .footer-right .services {
+        height: auto;
+    }
+
+    #page-footer .footer-right .contacts a {
+        min-width: 40%;
+    }
+
+    #page-footer .footer-right .copyright {
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 10px 20px 25px 10px;
+    }
+
+
 }
 
