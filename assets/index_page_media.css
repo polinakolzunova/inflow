@@ -174,9 +174,23 @@
         letter-spacing: 3px;
         margin-bottom: 25px;
     }
+
     #main_promo .inner {
         font-size: 2em;
+        width: 100vw;
     }
+    #main_promo .move-to.move-to-1 {
+        left: 20%;
+        bottom: 70px;
+    }
+    #main_promo .move-to.move-to-2 {
+        bottom: 45px;
+    }
+    #main_promo .move-to.move-to-3 {
+        left: 80%;
+        bottom: 70px;
+    }
+
     #main_greeting ul li a .small-btn {
         margin-right: 500px;
     }
