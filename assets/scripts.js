@@ -4,7 +4,7 @@ $(() => {
     let menuOnTop = true;
     let menuChangePoint = 90;
     let additScroll = 150;
-    let blockMouseMargin = 20;
+    let blockMouseMargin = 40;
     let blockMouseDuration = 300;
     let listItems = document.querySelectorAll("main .main_spliter h3");
     let colors = ['FEF543', 'D7FE43', '57FE43',
@@ -139,6 +139,11 @@ $(() => {
                 block.el.css({top: 0, left: "100%"});
                 block.el.animate({left: 0},blockMouseDuration,'linear');
             }
+            else {
+                $(this).addClass("animated");
+                block.el.css({top: "-100%", left: 0});
+                block.el.animate({top: 0},blockMouseDuration,'linear');
+            }
         }
     }
 
@@ -199,7 +204,7 @@ $(() => {
         scrollPage(0 - menuChangePoint);
     });
 
-    $("#main_portfolio .inner-list .inner-list-item").mouseenter(goBlockFrom);
+    $("#main_portfolio .inner-list .inner-list-item").hover(goBlockFrom);
     $("#main_portfolio .inner-list .inner-list-item").mouseleave(goBlockTo);
     $("#main_portfolio .inner-list .inner-list-item").click(goBlockClick);
 
