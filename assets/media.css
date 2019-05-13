@@ -134,6 +134,26 @@
         left: 7px;
         top: 22px;
     }
+    #page-header #menu-button.active {
+        left: 5px;
+    }
+
+    #page-header #menu-list .logo-big {
+        width: 75px; height: 75px;
+        right: 15px;
+    }
+    #page-header #menu-list .logo-small {
+        right: 15px;
+    }
+
+    #page-header #menu-list ul {
+        margin-left: 20px;
+        top: 45%;
+    }
+    #page-header #menu-list ul li a {
+        font-size: 35px;
+        padding: 0 0 0 20px;
+    }
 
 }
 
