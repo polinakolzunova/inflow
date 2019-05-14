@@ -96,6 +96,7 @@ body {
     transition: all 0.3s ease;
     text-decoration: none;
     cursor: pointer;
+    text-align: center;
 }
 
 .big-btn::before,
@@ -546,12 +547,12 @@ body {
     z-index: 100;
     top: 50%;
     left: 50%;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.6);
+    /*text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);*/
     transform: translate(-50%, -50%);
 }
 
-#page-footer .footer-left a::after,
+/*#page-footer .footer-left a::after,
 #page-footer .footer-left a::before {
     content: "";
     display: block;
@@ -588,7 +589,7 @@ body {
     width: 200px;
     height: 200px;
     opacity: 1;
-}
+}*/
 
 /*============= footer right part ============*/
 
