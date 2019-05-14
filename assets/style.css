@@ -668,9 +668,7 @@ body {
 
 #page-footer .footer-right .copyright {
     color: #555;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+    padding: 10px 0 20px 20px;
     font-size: 16px;
 }
 
