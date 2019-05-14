@@ -636,10 +636,28 @@ main .main_spliter h3 span {
     transition: all 0.5s linear;
 }
 
+#main_advantages .inner-list .inner-list-item .item-name::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -30px; left: 50%;
+    width: 20px; height: 20px;
+    border-right: 2px solid #aaa;
+    border-bottom: 2px solid #aaa;
+    transform-origin: 50% 50%;
+    transform: translateX(-50%) rotate(45deg);
+    opacity: 1;
+    transition: all 0.3s linear;
+}
+
 #main_advantages .inner-list .inner-list-item:hover .item-name {
     top: 15px;
     transform: translate(-50%, 0);
     width: 100%;
+}
+
+#main_advantages .inner-list .inner-list-item:hover .item-name::after {
+    opacity: 0;
 }
 
 #main_advantages .inner-list .inner-list-item .item-name b {
