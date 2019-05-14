@@ -294,7 +294,7 @@ main .inner-btn-line {
     opacity: 0.5;
 }
 
-/*=================== h2 h3 header ===================*/
+/*=================== h2 header ===================*/
 
 main > section h2 {
     position: absolute;
@@ -311,7 +311,7 @@ main > section h2 {
     z-index: 20;
 }
 
-/*=================== h2 h3 header ===================*/
+/*=================== h3 header + spliter ===================*/
 
 main .main_spliter {
     position: relative;
@@ -329,7 +329,7 @@ main .main_spliter {
     mask-image: url("../images/mask.svg");
 }
 
-main .main_spliter > .wrapper {
+main .main_spliter > .inner-center-big {
     position: relative;
     display: flex;
     height: 100%;
@@ -1005,7 +1005,7 @@ main .main_spliter h3 span {
     height: 170px;
 }
 
-#main_contacts .main_spliter .wrapper {
+#main_contacts .main_spliter .inner-center-big {
     justify-content: center;
 }
 

@@ -57,7 +57,7 @@ body {
     background-image: linear-gradient(230deg, #d54618, #d34fa6);
 }
 
-.wrapper {
+.inner-center-big {
     max-width: 1200px;
     margin: 0 auto 0 auto;
 }
