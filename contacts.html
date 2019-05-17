@@ -70,7 +70,7 @@
     <section id="page_contacts">
         <h2>контакты</h2>
         <div class="main_spliter">
-            <div class="wrapper">
+            <div class="inner-center-big">
                 <h3>Свяжитесь с нами</h3>
             </div>
         </div>
@@ -88,7 +88,37 @@
                     </div>
                 </div>
             </div>
-            <div class="inner-side-2">2</div>
+            <div class="inner-side-2">
+                <header>Отправить сообщение</header>
+                <form action="/" method="post">
+                    <div class="form-group">
+                        <input type="text" name="respient-name" placeholder="* Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="* Электронная почта" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="* Телефон" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="#mail-message" cols="30" rows="10" placeholder="* Расскажите о вашем проекте" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="budjet" placeholder="* Ориентировочный бюджет проекта" required>
+                    </div>
+                    <div class="form-group">
+                        <p>Заполненный бриф поможет нам лучше понять суть вашего проекта и предложить оптимальное решение, а так же составить предварительную смету.</p>
+                        <a href="/documents/Brif-na-razrabotku.docx" download>Скачать бриф</a>
+                    </div>
+                    <div class="form-group">
+                        <p>Прикрепить файл</p>
+                        <input type="file" name="file">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="big-btn">Отправить</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </section> <!-- заготовка для страницы контактов -->
 </main>

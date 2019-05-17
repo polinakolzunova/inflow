@@ -1,4 +1,6 @@
 
+
+
 /* заготовка для страницы контактов */
 
 #page_contacts {
@@ -11,21 +13,22 @@
 }
 
 #page_contacts .main_spliter {
-    height: 400px;
+    height: 500px;
     top: -80px;
+    margin-top: -50px;
     -webkit-mask: url("../images/mask2.svg");
     mask-image: url("../images/mask2.svg");
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.49);
 }
 
-#page_contacts .main_spliter > .wrapper {
+#page_contacts .main_spliter > .inner-center-big {
+    height: 100%;
     justify-content: center;
 }
 
 #page_contacts .main_spliter h3 {
-    margin-top: -30px;
-    text-transform: inherit;
-    font-size: 3em;
-    color: rgba(255, 255, 255, 0.71);
+    font-size: 2.5em;
+    color: #fff;
 }
 
 #page_contacts .inner {
@@ -34,16 +37,12 @@
     padding: 0;
 }
 
-#page_contacts .inner .inner-side-2 {
-    flex-grow: 1;
-}
-
 #page_contacts .inner-contacts {
     position: relative;
-    margin: -150px 0 0 5vw;
+    margin: -180px 0 0 5vw;
     background-color: #151515;
     color: #fff;
-    padding: 80px 50px;
+    padding: 130px 65px 100px 65px;
     box-sizing: border-box;
 }
 
@@ -68,4 +67,74 @@
 #page_contacts .inner-contacts > div > a {
     font-size: 0.9em;
     color: #eee;
+}
+
+
+#page_contacts .inner .inner-side-2 {
+    /*flex-grow: 1;*/
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+#page_contacts .inner-side-2 header {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+#page_contacts form .form-group {
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+#page_contacts form a {
+    color: #000061;
+    font-weight: bold;
+}
+
+#page_contacts form p {
+    padding-bottom: 5px;
+}
+
+#page_contacts form input[type=text],
+#page_contacts form input[type=email],
+#page_contacts form input[type=tel],
+#page_contacts form textarea
+{
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 1px;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: EuropeC, Arial, sans-serif;
+}
+
+#page_contacts form input[type=text]:focus,
+#page_contacts form input[type=email]:focus,
+#page_contacts form input[type=tel]:focus,
+#page_contacts form textarea:focus {
+    border-color: rgba(0, 0, 97, 0.9);
+}
+#page_contacts form input[type=text]:hover,
+#page_contacts form input[type=email]:hover,
+#page_contacts form input[type=tel]:hover,
+#page_contacts form textarea:hover {
+    border-color: rgba(0, 0, 97, 0.5);
+}
+
+#page_contacts form input[type=file] {
+    font-size: 16px;
+    font-family: EuropeC, Arial, sans-serif;
+}
+
+#page_contacts form button {
+    background-color: rgba(0, 0, 97, 0.5);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#page_contacts form button::before {
+    background-color: rgba(0, 0, 97, 0.5);
 }

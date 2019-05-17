@@ -97,6 +97,9 @@ body {
     text-decoration: none;
     cursor: pointer;
     text-align: center;
+    border: none;
+    outline: none;
+    z-index: 1;
 }
 
 .big-btn::before,
