@@ -516,13 +516,13 @@ main.inner-page #main_portfolio input#portfolio-menu-0:checked ~ .inner-list .in
 #page_price .price-list input#item7:checked ~ .price-item label[for=item7] ~ .tarifs,
 #page_price .price-list input#item8:checked ~ .price-item label[for=item8] ~ .tarifs,
 #page_price .price-list input#item9:checked ~ .price-item label[for=item9] ~ .tarifs {
-    height: 60vh;
+    max-height: 1500px;
 }
 
 #page_price .price-list .price-item .tarifs {
-    height: 0;
+    max-height: 0;
     transition: all 0.4s ease;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 #page_price .inner-btn-line {
