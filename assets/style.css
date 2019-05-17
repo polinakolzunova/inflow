@@ -200,7 +200,7 @@ body {
     color: white;
     overflow: hidden;
     background-color: #181818;
-    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.49);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.49);
 }
 
 #page-header > * {
@@ -709,6 +709,7 @@ body {
 main {
     background-color: #252525;
     width: 100%;
+    min-height: 400px;
     overflow: hidden;
 }
 
@@ -730,7 +731,7 @@ main > *:first-child {
 
 main > section {
     position: relative;
-    min-height: 400px;
+    /*min-height: 400px;*/
     padding-bottom: 50px;
     background-color: rgb(25, 25, 25);
     color: #fff;
@@ -849,4 +850,51 @@ main .inner-list .inner-list-item:hover {
 main .inner-btn-line {
     text-align: center;
     padding: 70px 5px 10px 5px !important;
+}
+
+/*=================== h3 header + spliter ===================*/
+
+main .main_spliter {
+    position: relative;
+    top: -40px;
+    display: block;
+    height: 120px;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(135deg, rgba(102, 183, 199, 0.6), rgba(16, 31, 62, 0.6), rgba(53, 162, 131, 0.5)),
+    url("../images/nogifwater.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    -webkit-mask: url("../images/mask.svg");
+    mask-image: url("../images/mask.svg");
+}
+
+main .main_spliter > .inner-center-big {
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+main .main_spliter h3 {
+    position: relative;
+    order: 1;
+    font-size: 35px;
+    line-height: 80px;
+    color: #ededed;
+    text-transform: uppercase;
+    padding: 0 20px;
+    top: 40px;
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+
+main .main_spliter h3.active {
+    top: 0;
+    opacity: 1;
+}
+
+main .main_spliter h3 span {
+    font-size: 50px;
 }

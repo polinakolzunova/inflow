@@ -176,53 +176,6 @@ main > section h2 {
     z-index: 20;
 }
 
-/*=================== h3 header + spliter ===================*/
-
-main .main_spliter {
-    position: relative;
-    top: -40px;
-    display: block;
-    height: 120px;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: linear-gradient(135deg, rgba(102, 183, 199, 0.6), rgba(16, 31, 62, 0.6), rgba(53, 162, 131, 0.5)),
-    url("../images/nogifwater.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    -webkit-mask: url("../images/mask.svg");
-    mask-image: url("../images/mask.svg");
-}
-
-main .main_spliter > .inner-center-big {
-    position: relative;
-    display: flex;
-    height: 100%;
-    align-items: center;
-}
-
-main .main_spliter h3 {
-    position: relative;
-    order: 1;
-    font-size: 35px;
-    line-height: 80px;
-    color: #ededed;
-    text-transform: uppercase;
-    padding: 0 20px;
-    top: 40px;
-    opacity: 0;
-    transition: all 0.5s linear;
-}
-
-main .main_spliter h3.active {
-    top: 0;
-    opacity: 1;
-}
-
-main .main_spliter h3 span {
-    font-size: 50px;
-}
-
 /*=================== greeting ===================*/
 
 #main_greeting {
@@ -787,76 +740,6 @@ main .main_spliter h3 span {
 }
 
 /*=================== contacts ===================*/
-
-/* заготовка для страницы контактов */
-/*#main_contacts {
-    background-color: #eee;
-    color: #222223;
-}
-
-#main_contacts h2 {
-    top: 280px;
-}
-
-#main_contacts .main_spliter {
-    height: 400px;
-    top: -80px;
-    -webkit-mask: url("../images/mask2.svg");
-    mask-image: url("../images/mask2.svg");
-}
-
-#main_contacts .main_spliter > .wrapper {
-    justify-content: center;
-}
-
-#main_contacts .main_spliter h3 {
-    margin-top: -30px;
-    text-transform: inherit;
-    font-size: 3em;
-    color: rgba(255, 255, 255, 0.71);
-}
-
-#main_contacts .inner {
-    display: flex;
-    margin-top: 0;
-    padding: 0;
-}
-
-#main_contacts .inner .inner-side-2 {
-    flex-grow: 1;
-}
-
-#main_contacts .inner-contacts {
-    position: relative;
-    margin: -150px 0 0 5vw;
-    background-color: #151515;
-    color: #fff;
-    padding: 80px 50px;
-    box-sizing: border-box;
-}
-
-#main_contacts .inner-contacts > div {
-    margin-bottom: 80px;
-}
-
-#main_contacts .inner-contacts .contacts-header {
-    font-size: 2.5em;
-    line-height: 1.7em;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-#main_contacts .inner-contacts > div > p {
-    margin-bottom: 15px;
-    font-size: 1.2em;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-#main_contacts .inner-contacts > div > a {
-    font-size: 0.9em;
-    color: #eee;
-}*/
 
 @keyframes Gradient {
     0% {

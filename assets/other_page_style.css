@@ -1,0 +1,71 @@
+
+/* заготовка для страницы контактов */
+
+#page_contacts {
+    background-color: #eee;
+    color: #222223;
+}
+
+#page_contacts h2 {
+    top: 280px;
+}
+
+#page_contacts .main_spliter {
+    height: 400px;
+    top: -80px;
+    -webkit-mask: url("../images/mask2.svg");
+    mask-image: url("../images/mask2.svg");
+}
+
+#page_contacts .main_spliter > .wrapper {
+    justify-content: center;
+}
+
+#page_contacts .main_spliter h3 {
+    margin-top: -30px;
+    text-transform: inherit;
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.71);
+}
+
+#page_contacts .inner {
+    display: flex;
+    margin-top: 0;
+    padding: 0;
+}
+
+#page_contacts .inner .inner-side-2 {
+    flex-grow: 1;
+}
+
+#page_contacts .inner-contacts {
+    position: relative;
+    margin: -150px 0 0 5vw;
+    background-color: #151515;
+    color: #fff;
+    padding: 80px 50px;
+    box-sizing: border-box;
+}
+
+#page_contacts .inner-contacts > div {
+    margin-bottom: 80px;
+}
+
+#page_contacts .inner-contacts .contacts-header {
+    font-size: 2.5em;
+    line-height: 1.7em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#page_contacts .inner-contacts > div > p {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#page_contacts .inner-contacts > div > a {
+    font-size: 0.9em;
+    color: #eee;
+}
