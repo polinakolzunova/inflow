@@ -614,3 +614,59 @@ main.inner-page #main_portfolio input#portfolio-menu-0:checked ~ .inner-list .in
     font-size: 1.2em;
     color: #d34fa6;
 }
+
+#main_services {
+    background-color: #222223;
+    background-image: radial-gradient(#222223, #111);
+}
+
+#main_services .inner {
+    color: #ededed;
+}
+
+#main_services .inner-list .inner-list-item {
+    flex-basis: 335px;
+    min-height: 170px;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#main_services .inner-list .inner-list-item:hover {
+    background-color: #111;
+    background-image: radial-gradient(#111, #000);
+}
+
+#main_services .inner-list .inner-list-item .item-name {
+    padding: 5px;
+    margin: 15px 0 0 15px;
+    color: #222223;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #fff;
+    background-image: radial-gradient(#fff, #aaa);
+    border-radius: 3px;
+    transition: none;
+}
+
+#main_services .inner-list .inner-list-item:hover .item-name {
+    background-color: transparent;
+    background-image: none;
+}
+
+#main_services .inner-list .inner-list-item:hover .item-name a {
+    font-weight: bold;
+    opacity: 0.7;
+    color: #fff;
+    text-shadow: 3px 3px 0 #000;
+}
+
+#main_services .inner-list .inner-list-item .item-body ul {
+    padding: 5px 0;
+    list-style: none;
+    color: #aaa;
+    box-sizing: border-box;
+    margin: 10px auto 5px auto;
+}
