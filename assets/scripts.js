@@ -210,6 +210,12 @@ $(() => {
     $("#main_portfolio .inner-list .inner-list-item").click(goBlockClick);
 
     $(".scroll-btn").click(scrollByClick);
+
+    $("#page_price .open-all").click(function(e){
+        e.preventDefault();
+        $("#page_price .price-list .price-item .tarifs").css("max-height","1500px");
+    });
+
     $("#main_services .inner-list .inner-list-item").hover(rndColorTxIn, rndColorTxOut);
 
     $("#page-header #menu-list ul li").hover(function () {
