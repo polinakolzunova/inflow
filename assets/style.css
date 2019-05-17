@@ -712,7 +712,7 @@ body {
 main {
     background-color: #252525;
     width: 100%;
-    min-height: 400px;
+    min-height: calc(100vh - 400px);
     overflow: hidden;
 }
 

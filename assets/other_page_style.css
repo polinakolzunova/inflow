@@ -8,11 +8,11 @@
     color: #222223;
 }
 
-#page_contacts h2 {
+main h2 {
     top: 280px;
 }
 
-#page_contacts .main_spliter {
+main .main_spliter {
     height: 500px;
     top: -80px;
     margin-top: -50px;
@@ -21,14 +21,15 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.49);
 }
 
-#page_contacts .main_spliter > .inner-center-big {
+main .main_spliter > .inner-center-big {
     height: 100%;
     justify-content: center;
 }
 
-#page_contacts .main_spliter h3 {
+main .main_spliter h3 {
     font-size: 2.5em;
     color: #fff;
+    text-align: center;
 }
 
 #page_contacts .inner {
@@ -138,3 +139,210 @@
 #page_contacts form button::before {
     background-color: rgba(0, 0, 97, 0.5);
 }
+
+/*
+*
+* portfolio
+*
+*/
+
+#main_portfolio .inner-header {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#main_portfolio .inner {
+    width: 100%;
+    padding: 0;
+}
+
+#main_portfolio .inner-list .inner-list-item {
+    width: 40%;
+    height: 350px;
+    overflow: hidden;
+    background-color: #000;
+    box-shadow: 0 0 20px rgba(255, 255, 255, .6);
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+#main_portfolio .inner-list .inner-list-item > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#main_portfolio .inner-list .inner-list-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 0;
+    opacity: 0.8;
+    transform-origin: 50% 0;
+}
+
+#main_portfolio .inner-list .inner-list-item .item-content {
+    z-index: 10;
+    top: -100%;
+    left: 0;
+    background-color: rgba(21, 21, 21, 0.9);
+    transition: none;
+    padding: 30px 50px;
+}
+
+#main_portfolio .inner-list .inner-list-item .item-content::before,
+#main_portfolio .inner-list .inner-list-item .item-content::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 3px;
+    opacity: 0;
+}
+
+#main_portfolio .inner-list .inner-list-item .item-content::before {
+    top: 130px;
+    left: 0;
+    background-image: linear-gradient(80deg, #ff7499, #ffd246);
+}
+
+#main_portfolio .inner-list .inner-list-item .item-content::after {
+    bottom: 130px;
+    right: 0;
+    background-image: linear-gradient(80deg, #ffd246, #ff7499);
+}
+
+#main_portfolio .inner-list .inner-list-item .item-content > * {
+    position: absolute;
+    opacity: 0;
+}
+
+#main_portfolio .inner-list .inner-list-item .item-content .item-btn {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#main_portfolio .inner-list .inner-list-item .item-content .item-btn a {
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+#main_portfolio .inner-list .inner-list-item .item-content .item-btn a::before {
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+#main_portfolio .inner-list .inner-list-item .item-content .item-btn a:hover {
+    color: #151515 !important;
+    z-index: 1;
+    opacity: 1;
+}
+
+
+#main_portfolio .inner-list .inner-list-item .item-content .item-title {
+    top: 40px;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+    padding: 0 20px 5px 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+#main_portfolio .inner-list .inner-list-item .item-content .item-type {
+    top: 50px;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+    color: #bbb;
+    font-size: 1.2em;
+}
+
+#main_portfolio .inner-list .inner-list-item .item-content .item-text {
+    color: #bbb;
+    font-size: 1.2em;
+    top: 150px;
+    width: 80%;
+    transform-origin: 50% 50%;
+    transform: scale(2);
+}
+
+#main_portfolio .inner-list .inner-list-item.animated .item-content::before,
+#main_portfolio .inner-list .inner-list-item.animated .item-content::after,
+#main_portfolio .inner-list .inner-list-item.animated .item-content > * {
+    opacity: 1;
+}
+
+#main_portfolio .inner-list .inner-list-item.animated .item-content .item-title {
+    transition: all 0.4s ease 0.3s;
+
+}
+
+#main_portfolio .inner-list .inner-list-item.animated .item-content .item-type {
+    top: 80px;
+    transition: all 0.3s ease 0.5s;
+}
+
+#main_portfolio .inner-list .inner-list-item.animated .item-content .item-text {
+    transform: scale(1);
+    transition: all 0.4s ease 0.9s;
+}
+
+#main_portfolio .inner-list .inner-list-item.animated .item-content .item-btn {
+    bottom: 50px;
+    transition: all 0.3s ease 0.9s;
+}
+
+#main_portfolio .inner-list .inner-list-item.animated .item-content::before,
+#main_portfolio .inner-list .inner-list-item.animated .item-content::after {
+    width: 100%;
+    transition: all 0.6s ease 1.2s;
+}
+
+main.inner-page #main_portfolio .inner {
+    margin-top: -50px;
+}
+
+main.inner-page #main_portfolio .inner input[type=radio],
+main.inner-page #main_portfolio .inner-list .inner-list-item {
+    display: none;
+}
+
+main.inner-page #main_portfolio .portfolio-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+main.inner-page #main_portfolio .portfolio-menu label {
+    padding: 10px 15px;
+    border: 1px solid #aaa;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+main.inner-page #main_portfolio input#portfolio-menu-0:checked ~ .portfolio-menu label[for=portfolio-menu-0],
+main.inner-page #main_portfolio input#portfolio-menu-1:checked ~ .portfolio-menu label[for=portfolio-menu-1],
+main.inner-page #main_portfolio input#portfolio-menu-2:checked ~ .portfolio-menu label[for=portfolio-menu-2],
+main.inner-page #main_portfolio input#portfolio-menu-3:checked ~ .portfolio-menu label[for=portfolio-menu-3],
+main.inner-page #main_portfolio input#portfolio-menu-4:checked ~ .portfolio-menu label[for=portfolio-menu-4],
+main.inner-page #main_portfolio .portfolio-menu label:hover {
+    background-color: #aaa;
+    color: #222223;
+}
+
+main.inner-page #main_portfolio input#portfolio-menu-1:checked ~ .inner-list .inner-list-item.type-service-1,
+main.inner-page #main_portfolio input#portfolio-menu-2:checked ~ .inner-list .inner-list-item.type-service-2,
+main.inner-page #main_portfolio input#portfolio-menu-3:checked ~ .inner-list .inner-list-item.type-service-3,
+main.inner-page #main_portfolio input#portfolio-menu-4:checked ~ .inner-list .inner-list-item.type-service-4,
+main.inner-page #main_portfolio input#portfolio-menu-0:checked ~ .inner-list .inner-list-item {
+    display: block;
+}
+
