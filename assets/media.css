@@ -68,6 +68,29 @@
     #scroll-to-top:hover {
         bottom: -50px !important;
     }
+
+    #main_portfolio .inner-list .inner-list-item.animated .item-content::before,        #main_portfolio .inner-list .inner-list-item.animated .item-content::after {
+        display: none;
+    }
+
+    #main_portfolio .inner-list .inner-list-item {
+        width: 90%;
+    }
+    #main_portfolio .inner-list .inner-list-item.animated .item-content .item-btn {
+        bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    #page_contacts .inner {
+        display: block;
+    }
+    #page_contacts .inner-contacts {
+        max-width: 450px;
+        margin: -180px auto 10px auto;
+        padding-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 670px) {
@@ -146,6 +169,10 @@
 
     #scroll-to-top {
         transform: scale(0.7);
+    }
+
+    #page_price .price-list .price-item label {
+        font-size: 1.3em;
     }
 }
 

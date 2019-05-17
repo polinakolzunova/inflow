@@ -75,7 +75,7 @@ main .main_spliter h3 {
     /*flex-grow: 1;*/
     max-width: 500px;
     margin: 0 auto;
-    padding: 0 5px;
+    padding: 25px 10px 0 15px;
 }
 
 #page_contacts .inner-side-2 header {
@@ -516,7 +516,7 @@ main.inner-page #main_portfolio input#portfolio-menu-0:checked ~ .inner-list .in
 #page_price .price-list input#item7:checked ~ .price-item label[for=item7] ~ .tarifs,
 #page_price .price-list input#item8:checked ~ .price-item label[for=item8] ~ .tarifs,
 #page_price .price-list input#item9:checked ~ .price-item label[for=item9] ~ .tarifs {
-    max-height: 1500px;
+    max-height: 5000px;
 }
 
 #page_price .price-list .price-item .tarifs {
@@ -593,7 +593,7 @@ main.inner-page #main_portfolio input#portfolio-menu-0:checked ~ .inner-list .in
 
 #page_price .price-list .price-item .tarif .dots {
     flex-grow: 1;
-    flex-basis: 50px;
+    flex-basis: 100px;
     height: 3px;
     background-image: repeating-linear-gradient(90deg,#888 0px, #888 3px,transparent 3px, transparent 8px);
 }

@@ -213,7 +213,7 @@ $(() => {
 
     $("#page_price .open-all").click(function(e){
         e.preventDefault();
-        $("#page_price .price-list .price-item .tarifs").css("max-height","1500px");
+        $("#page_price .price-list .price-item .tarifs").css("max-height","5000px");
     });
 
     $("#main_services .inner-list .inner-list-item").hover(rndColorTxIn, rndColorTxOut);
