@@ -14,6 +14,15 @@
     #page-footer {
         display: block;
     }
+
+    main .inner {
+        margin-top: 35px;
+    }
+
+    main .inner-header {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -27,6 +36,15 @@
 
     main .main_spliter h3 span {
         font-size: 35px;
+    }
+
+    main > section h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    main .inner {
+        margin-bottom: 50px;
     }
 
     #page-header #menu-list ul {
@@ -49,11 +67,6 @@
 
     #scroll-to-top:hover {
         bottom: -50px !important;
-    }
-
-    main > section h2 {
-        font-size: 16px;
-        line-height: 20px;
     }
 }
 
@@ -79,6 +92,31 @@
 
     main .main_spliter h3 {
         line-height: 35px;
+    }
+
+    main .inner {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    main .inner-btn-line {
+        padding-top: 40px !important;
+    }
+
+    main .inner-header {
+        font-size: 1.7em;
+    }
+
+    main .inner-header.header-colon {
+        margin-bottom: 50px;
+    }
+
+    main .inner-header.header-colon::before {
+        bottom: -45px;
+    }
+
+    main .inner-header.header-colon::after {
+        bottom: -40px;
     }
 
     #page-footer .footer-right {
@@ -115,6 +153,36 @@
     body {
         font-size: 16px;
         overflow-x: scroll;
+    }
+
+    main .inner-header {
+        font-size: 1.4em;
+        letter-spacing: 3px;
+        margin-bottom: 25px;
+    }
+
+    main .inner {
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    main .inner-header {
+        font-size: 1.4em;
+        letter-spacing: 3px;
+        margin-bottom: 15px;
+    }
+
+    main .inner-header.header-colon {
+        margin-bottom: 20px;
+    }
+
+    main .inner-btn-line {
+        padding-top: 20px !important;
+    }
+
+    main .inner-header.header-colon::before,
+    main .inner-header.header-colon::after {
+        display: none;
     }
 
     #page-header {
@@ -168,6 +236,7 @@
     main .main_spliter h3 {
         line-height: 30px;
     }
+
     main > section h2 {
         top: 45px;
         right: 5px;
@@ -205,7 +274,6 @@
         left: 0;
         padding: 10px 20px 25px 10px;
     }
-
 
 }
 

@@ -30,15 +30,6 @@
         top: -150px;
     }
 
-    main .inner {
-        margin-top: 35px;
-    }
-
-    main .inner-header {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-
     #page-footer .footer-left {
         display: none;
     }
@@ -99,9 +90,6 @@
 }
 
 @media screen and (max-width: 850px) {
-    main .inner {
-        margin-bottom: 50px;
-    }
 
     #main_advantages .inner-list .inner-list-item {
         flex-basis: 90%;
@@ -146,31 +134,6 @@
         padding: 7px 5px;
     }
 
-    main .inner {
-        margin-bottom: 30px;
-        margin-top: 20px;
-    }
-
-    main .inner-btn-line {
-        padding-top: 40px !important;
-    }
-
-    main .inner-header {
-        font-size: 1.7em;
-    }
-
-    main .inner-header.header-colon {
-        margin-bottom: 50px;
-    }
-
-    main .inner-header.header-colon::before {
-        bottom: -45px;
-    }
-
-    main .inner-header.header-colon::after {
-        bottom: -40px;
-    }
-
     #main_advantages .inner-list .inner-list-item {
         height: 200px;
     }
@@ -182,11 +145,6 @@
 }
 
 @media screen and (max-width: 500px) {
-    main .inner-header {
-        font-size: 1.4em;
-        letter-spacing: 3px;
-        margin-bottom: 25px;
-    }
 
     #main_promo .inner {
         font-size: 2em;
@@ -225,21 +183,6 @@
         font-size: 2em;
     }
 
-    main .inner {
-        margin-bottom: 10px;
-        margin-top: 0;
-    }
-
-    main .inner-header {
-        font-size: 1.4em;
-        letter-spacing: 3px;
-        margin-bottom: 15px;
-    }
-
-    main .inner-header.header-colon {
-        margin-bottom: 20px;
-    }
-
     #main_greeting ul li a {
         padding: 0 0 10px 0;
     }
@@ -260,10 +203,6 @@
 
     #main_about-us .green-bgc {
         padding: 2px 5px;
-    }
-
-    main .inner-btn-line {
-        padding-top: 20px !important;
     }
 
     #main_services .inner-list .inner-list-item {
@@ -293,11 +232,6 @@
         font-size: 1em;
         width: 100%;
         padding: 0 10px;
-    }
-
-    main .inner-header.header-colon::before,
-    main .inner-header.header-colon::after {
-        display: none;
     }
 
     #main_documents .inner-list .inner-list-item {
