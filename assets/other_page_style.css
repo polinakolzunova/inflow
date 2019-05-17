@@ -316,6 +316,7 @@ main.inner-page #main_portfolio .inner-list .inner-list-item {
 
 main.inner-page #main_portfolio .portfolio-menu {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
 }
@@ -346,3 +347,115 @@ main.inner-page #main_portfolio input#portfolio-menu-0:checked ~ .inner-list .in
     display: block;
 }
 
+/*
+*
+* price page
+*
+ */
+
+main.inner-page #page_price .inner {
+    margin-top: -50px;
+}
+
+#page_price {
+    background-color: #fff;
+    background-image: linear-gradient(90deg,
+    rgba(255, 219, 91, 0.2) 0, rgba(255, 219, 91, 0.2) 25%,
+    rgba(255, 113, 133, 0.2) 25%, rgba(255, 113, 133, 0.2) 50%,
+    rgba(181, 148, 255, 0.2) 50%, rgba(181, 148, 255, 0.2) 75%,
+    rgba(92, 203, 255, 0.2) 70%, rgba(92, 203, 255, 0.2) 100%);
+    color: #222223;
+}
+
+#page_price .inner-list .inner-list-item {
+    top: 0;
+    flex-grow: 0;
+    width: 230px;
+    height: 270px;
+    margin: 15px 15px 0 0;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #222223;
+    box-shadow: 0 10px 45px rgba(4, 36, 59, .08);
+    transition: all 0.3s ease;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../images/doc.png");
+    background-position: 0 0, -30px 10px;
+    background-size: 100% 100%, 80px auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#page_price .inner-list .inner-list-item:hover {
+    top: -10px;
+}
+
+#page_price .inner-list .inner-list-item a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+#page_price .inner-list .inner-list-item .content {
+    padding: 20px 15px;
+}
+
+#page_price .inner-list .inner-list-item .content .title {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    font-weight: 600;
+}
+
+#page_price .inner-list .inner-list-item .bottom-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    padding: 15px 0;
+    background-color: #eee;
+    color: #050131;
+    font-weight: 900;
+    text-align: center;
+}
+
+#page_price .inner-list .inner-list-item:hover .bottom-line {
+    color: #05014c;
+}
+
+#page_price .price-list {
+    padding-bottom: 50px;
+}
+
+#page_price .price-list .price-item {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.49);
+    max-width: 1000px;
+    margin: 0 auto -15px auto;
+}
+
+#page_price .price-list .price-item label {
+    display: block;
+    padding: 15px 25px;
+}
+
+#page_price .price-list input {
+    display: none;
+}
+
+#page_price .price-list input#item1:checked ~ .price-item label[for=item1] ~ .tarifs,
+#page_price .price-list input#item2:checked ~ .price-item label[for=item2] ~ .tarifs,
+#page_price .price-list input#item3:checked ~ .price-item label[for=item3] ~ .tarifs {
+    height: 300px;
+}
+
+#page_price .price-list .price-item .tarifs {
+    height: 0;
+    transition: height 0.4s ease-in;
+}
